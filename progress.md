@@ -5,8 +5,7 @@ Handover notes for any agent picking this up. Read this before you change anythi
 ## Status (2026-10-09)
 
 - v2 working and tested end to end on the RTX 4070 SUPER (Windows 11, Python 3.12).
-- Repo prepared here for GitHub; **not pushed yet**. Planned remote:
-  `github.com/ErynVornTechnologies/Video-Enhancer` (name to be confirmed by Kamil).
+- Published 2026-10-12 (public): https://github.com/ErynVornTechnologies/Video-Enhancer
 - Goal (from Kamil): clean, artefact-free upscale of VHS / 480p / 720p material to 1080p
   for a 55" TV. Not a "super-duper" enhancer; reliability over hype.
 
@@ -80,7 +79,7 @@ download verified).
 - [ ] Optional QTGMC path (VapourSynth) for top-quality deinterlacing.
 - [ ] TensorRT (vs-mlrt) for speed; temporal-consistency model (e.g. RealBasicVSR) if shimmer is an issue.
 - [ ] Commercial-safe default if this ever ships to clients (SPAN weights are NC).
-- [ ] Push to GitHub. The LinkedIn post is deliberately **not** in the repo
+- [x] Pushed to GitHub 2026-10-12. The LinkedIn post is deliberately **not** in the repo
       (Kamil's decision); the draft lives in `H:\CLAUDE_CODE\Video_Enhancer\LinkedIn_Post.md`.
 
 ## Audio restoration (2026-10-10, Kamil: speech + VHS hiss + tape faults + clipping)
