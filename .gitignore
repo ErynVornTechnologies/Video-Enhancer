@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Local environment (created by INSTALL.bat)
+.venv/
+venv/
+.env
+
+# Model weights and tools: downloaded by INSTALL.bat, each under its own licence
+models/*.pth
+models/*.part
+models_audio/
+tools/
+.venv_audio/
+*.audio.wav
+*.audio.wav.tmp/
+
+# Video in / out
+*.mp4
+*.mkv
+*.mpg
+*.mpeg
+*.avi
+*.mov
+*.vob
+*.ffmpeg.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

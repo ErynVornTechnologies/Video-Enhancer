@@ -1,0 +1,6 @@
+# Install CUDA PyTorch FIRST (see INSTALL.bat), otherwise pip pulls a CPU-only build:
+#   pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+spandrel>=0.4.2
+customtkinter>=5.2.2
+numpy>=1.26
+pillow>=10.0
